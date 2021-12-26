@@ -1,0 +1,23 @@
+.row-wrapper{
+    display: flex;
+    background-color: gray;
+    justify-content: flex-start;
+}
+.column-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+.box{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(27, 166, 230);
+    justify-content: center;
+    padding-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}

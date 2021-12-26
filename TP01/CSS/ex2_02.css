@@ -1,0 +1,14 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    background-color: silver;
+    padding: 20px;
+}
+.box{
+    background-color: rgb(85, 198, 218);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(235, 229, 229);
+    border-radius: 5px;
+}
