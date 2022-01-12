@@ -1,0 +1,7 @@
+.wrapper{
+    display: flex;
+    background-color: greenyellow;
+    height: 516px;
+    width: clamp(300vw 100% 800vw);
+    flex-direction: row;
+}
