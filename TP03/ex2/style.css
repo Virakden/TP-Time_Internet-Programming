@@ -1,0 +1,74 @@
+body{
+  background-color: #cacaca;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 90vh;
+}
+.logIn{
+  background-color: rgb(255, 255, 255);
+  width: 21rem;
+  padding: 2rem;
+  border-radius: 3%;
+  box-shadow: #b3adad 0px 0px 0px 6px;
+}
+.logIn>div{
+  text-align: center;
+}
+.logIn>label{
+  color: #3f1c87;
+  font-size: 18px;
+}
+.logIn>div>img{
+  width: 13rem;
+  margin-bottom: 3rem;
+}
+.logIn>input{
+  background-color: #fafafa;
+  width: 21rem;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: .3s;
+}
+.logIn>input:focus{
+  border-color: #871c1c;
+  box-shadow: 0 0 8px 0 rgb(153, 19, 66);
+}
+
+.container2{
+  margin: -45rem 0 0 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 93vw;
+  height: 93vh;
+}
+
+#btn_login,
+#btn_logout {
+    background-color: rgb(61, 133, 198);
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 2rem;
+    width: 4rem;
+    font: sans-serif;
+    text-shadow: none;
+    height: 1.5rem;
+    margin-top: 0.645rem;
+    border-radius: 0.165rem;
+    margin: 0.50rem 0 0.670rem 0;
+}
+
+#btn_logout {
+    background-color: rgb(177, 65, 65);
+}
